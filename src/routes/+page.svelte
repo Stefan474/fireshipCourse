@@ -1,2 +1,4 @@
-<h1 class="text-blue-200">Welcome to SvelteKit</h1>
-<p class="text-4xl text-red-700">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import AuthCheck from "$lib/components/AuthCheck.svelte";
+</script>
+<AuthCheck />
